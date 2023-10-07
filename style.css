@@ -1,0 +1,68 @@
+body {
+    background-color: #2c2f33;
+    /* Dark background color */
+    color: #dcdcdc;
+    /* Light text color */
+}
+
+.form-control,
+.form-select {
+    background-color: #23272a;
+    /* Darker input background color */
+    color: #dcdcdc;
+    /* Light text color */
+    border-color: #af72da;
+    /* Purple border color */
+}
+
+.btn-primary {
+    background-color: #7289da;
+    /* Purple background color */
+    border-color: #7289da;
+    /* Purple border color */
+}
+
+#result {
+    background-color: #23272a;
+    /* Darker background color */
+    color: #dcdcdc;
+    /* Light text color */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+mark {
+    background-color: #af72da;
+    /* Purple highlight color */
+    color: #dcdcdc;
+    /* Light text color */
+}
+
+/* Custom CSS for Dark/Purple Theme Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2c2f33;
+    /* Dark background color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+    /* Purple thumb color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5a67d8;
+    /* Slightly darker purple on hover */
+}
+
+#loading-spinner {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#loading-spinner.show {
+    opacity: 1;
+}
