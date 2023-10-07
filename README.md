@@ -3,6 +3,9 @@
 ## Overview
 This web application enables users to search the Arxiv repository for academic papers, process the results, and download them in various formats including Markdown, XML, YAML, and HTML.
 
+## DEMO
+A live demo of the project is available [here](https://maxime-fleury.github.io/ArXivSearch/).
+
 ## Features
 - **Search Functionality**: Users can search for academic papers by entering a search term.
 - **Download Functionality**: Users can download the search results in Markdown, XML, YAML, or HTML format.
